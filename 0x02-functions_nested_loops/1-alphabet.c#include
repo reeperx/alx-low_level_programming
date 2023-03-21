@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * main - prints out alphabets
+ * Return: void
+ */
+
+voidprint_alphabet(void)
+
+	char b = 'a';
+
+	while (b <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+
+		_putchar('\n');
+}
