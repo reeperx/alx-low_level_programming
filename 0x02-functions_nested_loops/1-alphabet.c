@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- * Main - prints out alphabets
- * Description - Alphabet program
- * Return: 0 Always
- **/
+ * main - check the code
+ * Return: Always 0.
+ */
 
-void print_alphabet(void)
+int main(void)
 {
-	char b = 'a';
-
-	while (b <= 'z')
-	{
-		_putchar(b);
-		b++;
-	}
-	_putchar('\n');
+	print_alphabet();
+	return (0);
 }
