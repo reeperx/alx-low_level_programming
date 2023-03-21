@@ -17,7 +17,7 @@ void times_table(void)
 			mult = row * col;
 			if (col == 0)
 			{
-				_putchar(mult + '0')
+				_putchar(mult + '0');
 			}
 
 				if (mult < 10 && col !=0)
