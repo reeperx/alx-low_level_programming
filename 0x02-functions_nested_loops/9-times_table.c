@@ -2,36 +2,33 @@
 
 /**
  * times_table - function for printing 9 times table
- *
- * Return: 0
  */
 
 void times_table(void)
 {
-	int row, col, mult;
+	int i, j, k;
 
-	for (row = 0; row < 10; row++)
+	for (i = 0; i < 10; i++)
 	{
-		for (col = 0; col < 10; col++)
+		for (j = 0; j < 10; j++)
 		{
-			mult = row * col;
-			if (col == 0)
+			k = j * i;
+			if (j == 0)
 			{
-				_putchar(mult + '0');
+				_putchar(k + '0');
 			}
 
-				if (mult < 10 && col !=0)
+				if (k < 10 && j != 0)
 				{
+					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(' ');
-					_putchar(mult + '0');
-				} else if (mult >= 10)
+					_putchar(k + '0');
+				} else if (k >= 10)
 				{
 				_putchar(' ');
 				_putchar(',');
-				_putchar(mult / 10) + '0');
-				_putchar(mult % 10) + '0');
+				
 			}
 		}
 		_putchar('\n');
