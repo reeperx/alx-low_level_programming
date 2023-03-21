@@ -1,8 +1,9 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - Prints out characters
+ * main - prints out characters
  *
- * Return: 0 Success
+ * Return: 0 success
  */
 
 int main(void)
