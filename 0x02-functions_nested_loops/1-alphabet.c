@@ -2,16 +2,17 @@
 
 /**
  * main - prints out alphabets
- * Return: void
+ * Description: 'the program runs letters's
+ * Return: Void Success
  */
-
-void print_alphabet(void)
+void print_alphabet(void) /*custom header included*/
 {
-	int b;
+	char b = 'a';
 
-		for (b = 'a'; b <= 'z'; b++)
-		{
-			_putchar(b);
-		}
+	while (b <= 'z')
+	{
+		_putchar(b);
+		b++;
+	}
 	_putchar('\n');
 }
