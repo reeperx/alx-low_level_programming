@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - Program for lower case
  * _islower - Entry point
- * @c: the character
- * Return: void Success
+ * Description: lower case letter
+ * @c: The character to be checkeds
+ * Return: 1 for lowwercase char or 0 for anything else
  */
 
 int _islower(int c)
