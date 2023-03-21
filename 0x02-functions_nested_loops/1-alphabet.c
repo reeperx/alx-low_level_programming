@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - prints out alphabets
- * Description: 'the program runs letters's
+ * print_alphabet - Entry Point
+ * Description: Prints out letters
  * Return: Void Success
  */
 void print_alphabet(void) /*custom header included*/
+/* declaration of print_alphabets */
 {
 	char b = 'a';
 
