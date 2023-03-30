@@ -3,9 +3,13 @@
 int main(void)
 {
 	int n;
+
 	int a[5];
+
 	int *p;
+
 	int a[3] = {10, 20, 98};
+
 	a[2] = 1024;
 	p = &n;
 	
