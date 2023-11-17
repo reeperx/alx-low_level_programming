@@ -6,7 +6,7 @@
 * @argc: number of command line arguement.
 * @argv: array that contains the program command line arg
 *
-* Return (0) when successful
+* Return: (0) when successful
 */
 int main(int argc, char *argv[])
 {
